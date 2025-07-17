@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://feedback-api-1063311936337.us-central1.run.app";
 
 function App() {
   const [feedbacks, setFeedbacks] = useState([]);
